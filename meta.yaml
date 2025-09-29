@@ -1,0 +1,39 @@
+package:
+  name: 'nionswift-plugin-basic-image-processing'
+  version: '0.1.0'
+
+source:
+  git_rev: 0.1.0
+  git_url: https://github.com/idrobo-lab/nionswift-plugin-basic-image-processing.git
+
+build:
+  noarch: python
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
+  include_recipe: False
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+  run:
+    - python >=3.10
+    - nionswift >=16.10.0,<17.0.0
+
+test:
+  imports:
+    - idrobo_lab.basic_image_processing
+    - idrobo_lab.basic_image_processing.test
+    - nionswift_plugin.basic_image_processing
+    - nionswift_plugin.basic_image_processing.test
+
+about:
+  home: https://github.com/idrobo-lab/nionswift-plugin-basic-image-processing
+  license: GPL-3.0
+  summary: "Library and UI for processing with Nion Swift."
+  description: "Library and UI for processing with Nion Swift."
+
+extra:
+  recipe-maintainers:
+    laxxe09
