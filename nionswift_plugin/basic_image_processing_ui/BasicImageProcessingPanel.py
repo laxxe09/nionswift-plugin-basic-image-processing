@@ -82,13 +82,13 @@ class BasicImageProcessingPanel(Panel.Panel):
 
         # Call window.edit_computation for each selected operation
         if self.align_spline_cb.checked:
-            self._do_action("window.edit_computation")
+            self._do_action("processing.sequence_align_spline_1")
 
         if self.align_fourier_cb.checked:
-            self._do_action("window.edit_computation")
+            self._do_action("processing.sequence_align_fourier")
 
         if self.integrate_cb.checked:
-            self._do_action("window.edit_computation")
+            self._do_action("processing.sequence_integrate")
 
         if self.gaussian_cb.checked:
             self._do_action("window.edit_computation")
