@@ -1,4 +1,5 @@
-#With opening of edit computation 
+# Without opening of "Edit computation"
+# Directly applies chosen filter similar to doing it manually 
 from __future__ import annotations
 
 import gettext
@@ -24,7 +25,7 @@ class BasicImageProcessingPanel(Panel.Panel):
         panel_id: str,
         properties: typing.Mapping[str, typing.Any],
     ) -> None:
-        super().__init__(document_controller, panel_id, "Basic Image Processing")
+        super().__init__(document_controller, panel_id, "Basic Image Processing version 2")
 
         ui = document_controller.ui
         self.widget = ui.create_column_widget(properties={"margin": 6, "spacing": 4})
@@ -91,18 +92,18 @@ class BasicImageProcessingPanel(Panel.Panel):
             self._do_action("processing.sequence_integrate")
 
         if self.gaussian_cb.checked:
-            self._do_action("window.edit_computation")
+            self._do_action("processing.gaussian_filter")
 
         if self.median_cb.checked:
-            self._do_action("window.edit_computation")
+            self._do_action("processing.median_filter")
 
 
 def run() -> None:
 
     Workspace.WorkspaceManager().register_panel(
         BasicImageProcessingPanel,
-        "basic-image-processing-panel",
-        _("Basic Image Processing"),
+        "basic-image-processing-panel-v2",
+        _("Basic Image Processing V2"),
         ["left", "right"],
         "right",
         {},

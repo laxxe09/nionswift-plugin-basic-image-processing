@@ -1,5 +1,7 @@
 # import components so they get registered with Nion Swift
-from nionswift_plugin.basic_image_processing_ui.BasicImageProcessingPanel import run
+from nionswift_plugin.basic_image_processing_ui.BasicImageProcessingPanel import run as run_v1
+from nionswift_plugin.basic_image_processing_ui.BasicImageProcessingPanelv2 import run as run_v2
 
-# Register the panel when the plugin is loaded
-run()
+# Register both panels when the plugin is loaded
+run_v1()
+run_v2()
