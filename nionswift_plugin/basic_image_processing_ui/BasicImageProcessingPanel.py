@@ -102,8 +102,8 @@ def run() -> None:
 
     Workspace.WorkspaceManager().register_panel(
         BasicImageProcessingPanel,
-        "basic-image-processing-panel-v2",
-        _("Basic Image Processing V2"),
+        "basic-image-processing-panel",
+        _("Basic Image Processing"),
         ["left", "right"],
         "right",
         {},
