@@ -26,7 +26,7 @@ This plugin works best when the Inspector Panel (found under the Window menu) is
 
 .. image:: images/plugin_sample.png
    :alt: Basic Image Processing Panel with check boxes that include Align, Integrate, Gaussian, and Median options with a compile button below.
-   :width: 400px
+   :width: 200px
    :align: center
 
 
