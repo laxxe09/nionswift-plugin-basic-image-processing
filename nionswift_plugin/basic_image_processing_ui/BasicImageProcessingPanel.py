@@ -39,8 +39,8 @@ class BasicImageProcessingPanel(Panel.Panel):
         align_section.add(self.align_fourier_cb)
 
         integrate_section = ui.create_column_widget(properties={"margin": 4, "spacing": 4})
-        integrate_section.add(ui.create_label_widget("Integration", properties={"stylesheet": "font-weight: bold"}))
-        self.integrate_cb = ui.create_check_box_widget("Sequence Integration")
+        integrate_section.add(ui.create_label_widget("Sequence", properties={"stylesheet": "font-weight: bold"}))
+        self.integrate_cb = ui.create_check_box_widget("Integrate")
         integrate_section.add(self.integrate_cb)
 
         filter_section = ui.create_column_widget(properties={"margin": 4, "spacing": 4})
