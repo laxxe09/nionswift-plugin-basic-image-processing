@@ -33,11 +33,7 @@ Installation Steps
 
 Step 1: Downloading the files
 
-Option 1: Download zip file 
-.. image:: images/Downloadzipfile.png
-   :alt: Github screengrab that shows to copy the repository link when green "Code" button is clicked and red circle around dow zip file option  
-   :width: 500px
-   :align: center
+Option 1: Download the zip file
 
 Option 2: Clone repository into preferred directory / folder
    •	Open Terminal / Command Prompt
