@@ -23,8 +23,6 @@ Below the Basic Image Processing Panel, the Inspector Panel can be used to adjus
 
 This plugin works best when the Inspector Panel (found under the Window menu) is open, allowing real-time adjustment of Gaussian sigma values.
 
-
-
 .. image:: images/plugin_sample.png
    :alt: Basic Image Processing Panel with check boxes that include Align, Integrate, Gaussian, and Median options with a compile button below.
    :width: 200px
@@ -37,10 +35,10 @@ Step 1: Downloading the files
 
 Option 1: Download zip file 
 .. image:: images/Downloadzipfile.png
-   :alt: Github screengrab that shows to copy the repository link when green "Code" button is clicked and red circle around "Download zip file" option
-   :width: 500px
+   :alt: Basic Image Processing Panel with check boxes that include Align, Integrate, Gaussian, and Median options with a compile button below.
+   :width: 200px
    :align: center
-   
+
 Option 2: Clone repository into preferred directory / folder
 
    •	Open Terminal / Command Prompt
