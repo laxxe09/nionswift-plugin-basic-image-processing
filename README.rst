@@ -33,7 +33,7 @@ Installation Steps
 
 Step 1: Downloading the files
 
-Option 1: Download the zip file
+Option 1: Download the Zip file
 
 Option 2: Clone repository into preferred directory / folder
    •	Open Terminal / Command Prompt
