@@ -33,11 +33,14 @@ This plugin works best when the Inspector Panel (found under the Window menu) is
 
 Installation Steps
 
-Step 1: Downloading the files
+## Step 1: Downloading the files
 
-Option 1: Download zip file 
-
-Option 2: Clone repository into preferred directory / folder
+### Option 1: Download zip file 
+.. image:: images/Downloadzipfile.png
+   :alt: Github screengrab that shows to copy the repository link when green "Code" button is clicked and red circle around "Download zip file" option
+   :width: 500px
+   :align: center
+### Option 2: Clone repository into preferred directory / folder
 
    •	Open Terminal / Command Prompt
    •	cd to easily accessible folder (e.g. "cd Desktop")
@@ -45,9 +48,9 @@ Option 2: Clone repository into preferred directory / folder
 
 .. image:: images/gitclone_link.png
    :alt: Github screengrab that shows to copy the repository link when green "Code" button is clicked
-   :width: 200px
+   :width: 500px
    :align: center
-Step 2: Locate the Nion Swift PlugIns folder: 
+## Step 2: Locate the Nion Swift PlugIns folder: 
 
 On MacOS: 
    •	Go to Finder
@@ -59,16 +62,16 @@ On Windows:
 
    ** Make sure to replace <YourUsername>
    
-Step 3: Move the nionswift_plugin file to the PlugIns folder: 
+## Step 3: Move the nionswift_plugin file to the PlugIns folder: 
  
 Take the nionswift_plugin file within the downloaded file from Step 1 and move it to the PlugIns folder. 
 
 .. image:: images/MovetoPlugIn.png
    :alt: screencapture of moving the nionswift_plugin folder to the PlugIns folder
-   :width: 200px
+   :width: 500px
    :align: center
 
-Last Step: Run Nion Swift 
+## Final Step: Run Nion Swift 
 
 .. start-badges
 
