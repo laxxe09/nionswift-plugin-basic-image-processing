@@ -39,9 +39,9 @@ Option 1: Download zip file
 
 Option 2: Clone repository into preferred directory / folder
 
-	•	Open Termina / Command Prompt
-	•	cd to easily accessible folder (e.g. "cd Desktop") 
-	•	git clone <repo url>
+   •	Open Terminal / Command Prompt
+   •	cd to easily accessible folder (e.g. "cd Desktop")
+   •	git clone <repo url>
 
 .. image:: images/gitclone_link.png
    :alt: Github screengrab that shows to copy the repository link when green "Code" button is clicked
@@ -50,7 +50,7 @@ Option 2: Clone repository into preferred directory / folder
 Step 2: Locate the Nion Swift PlugIns folder: 
 
 On MacOS: 
-	•	Go to Finder
+   •	Go to Finder
    •	Cmd + Shift + G
    •	~/Library/Application Support/Nion/Nion Swift/PlugIns
 On Windows: 
