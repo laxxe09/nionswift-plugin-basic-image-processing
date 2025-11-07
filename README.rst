@@ -24,11 +24,51 @@ Below the Basic Image Processing Panel, the Inspector Panel can be used to adjus
 This plugin works best when the Inspector Panel (found under the Window menu) is open, allowing real-time adjustment of Gaussian sigma values.
 
 
+
 .. image:: images/plugin_sample.png
    :alt: Basic Image Processing Panel with check boxes that include Align, Integrate, Gaussian, and Median options with a compile button below.
    :width: 200px
    :align: center
 
+
+Installation Steps
+
+Step 1: Downloading the files
+
+Option 1: Download zip file 
+
+Option 2: Clone repository into preferred directory / folder
+
+	•	Open Termina / Command Prompt
+	•	cd to easily accessible folder (e.g. "cd Desktop") 
+	•	git clone <repo url>
+
+.. image:: images/gitclone_link.png
+   :alt: Github screengrab that shows to copy the repository link when green "Code" button is clicked
+   :width: 200px
+   :align: center
+Step 2: Locate the Nion Swift PlugIns folder: 
+
+On MacOS: 
+	•	Go to Finder
+   •	Cmd + Shift + G
+   •	~/Library/Application Support/Nion/Nion Swift/PlugIns
+On Windows: 
+   •	Go to Windows search bar
+   •	C:\Users\<YourUsername>\AppData\Roaming\Nion\Nion Swift\PlugIns 
+
+   ** Make sure to replace <YourUsername>
+   
+Step 3: Move the nionswift_plugin file to the PlugIns folder: 
+ 
+Take the nionswift_plugin file within the downloaded file from Step 1 and move it to the PlugIns folder. 
+
+.. image:: images/MovetoPlugIn.png
+   :alt: screencapture of moving the nionswift_plugin folder to the PlugIns folder
+   :width: 200px
+   :align: center
+
+Last Step: Run Nion Swift 
 
 .. start-badges
 
