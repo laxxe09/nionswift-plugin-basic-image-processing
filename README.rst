@@ -33,18 +33,6 @@ Installation Steps
 
 Step 1: Downloading the files
 
-Option 1: Download zip file 
-.. image:: images/Downloadzipfile.png
-   :alt: Basic Image Processing Panel with check boxes that include Align, Integrate, Gaussian, and Median options with a compile button below.
-   :width: 200px
-   :align: center
-
-Option 2: Clone repository into preferred directory / folder
-
-   •	Open Terminal / Command Prompt
-   •	cd to easily accessible folder (e.g. "cd Desktop")
-   •	git clone <repo url>
-
 .. image:: images/gitclone_link.png
    :alt: Github screengrab that shows to copy the repository link when green "Code" button is clicked
    :width: 500px
